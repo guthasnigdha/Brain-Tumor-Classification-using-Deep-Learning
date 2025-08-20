@@ -17,7 +17,7 @@ This project implements a **deep learning-based brain tumour detection system** 
 Make sure you have Python 3.8+ installed. Install dependencies using:<br>
 pip install tensorflow keras numpy matplotlib scikit-learn opencv-python
 
-📊 **Dataset**
+## 📊 **Dataset**
 MRI images of the human brain categorized into tumour and non-tumour classes.<br>
 Dataset should be structured into train, validation, and test directories.
 
@@ -32,18 +32,18 @@ data/<br>
  └── validation/<br>
 If you don’t already have a dataset, you can explore publicly available datasets on Kaggle Brain Tumour MRI Dataset.
 
-🏗️ **Model**<br>
+## 🏗️ **Model**<br>
 Base Model: EfficientNetB0 (pretrained on ImageNet)<br>
 Fine-tuning: Last few layers unfrozen for domain-specific learning<br>
 Optimizer: Adam<br>
 Loss Function: Categorical Crossentropy<br>
 
-📈 **Results**<br>
+## 📈 **Results**<br>
 Achieved high accuracy on validation/test sets<br>
 Visualizations show strong learning with minimal overfitting<br>
 Model predictions correctly classify tumour types in most cases<br>
 
-📌 **Future Improvements**<br>
+## 📌 **Future Improvements**<br>
 Experiment with EfficientNetB3/B7 for higher accuracy<br>
 Deploy as a Flask/Django web app for real-time MRI analysis<br>
 Expand dataset with more samples for improved generalization<br>
