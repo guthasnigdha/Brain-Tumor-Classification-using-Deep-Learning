@@ -14,22 +14,22 @@ This project implements a **deep learning-based brain tumour detection system** 
 - Visualizations of training progress and predictions  
 
 ## ⚙️ Installation & Requirements
-Make sure you have Python 3.8+ installed. Install dependencies using:
+Make sure you have Python 3.8+ installed. Install dependencies using:<br>
 pip install tensorflow keras numpy matplotlib scikit-learn opencv-python
 
 📊 Dataset
-MRI images of the human brain categorized into tumour and non-tumour classes.
+MRI images of the human brain categorized into tumour and non-tumour classes.<br>
 Dataset should be structured into train, validation, and test directories.
 
-Example structure:
-data/
- ├── train/
- │    ├── glioma/
- │    ├── meningioma/
- │    ├── pituitary/
- │    └── no_tumor/
- ├── test/
- └── validation/
+Example structure:<br>
+data/<br>
+ ├── train/<br>
+ │    ├── glioma/<br>
+ │    ├── meningioma/<br>
+ │    ├── pituitary/<br>
+ │    └── no_tumor/<br>
+ ├── test/<br>
+ └── validation/<br>
 If you don’t already have a dataset, you can explore publicly available datasets on Kaggle Brain Tumour MRI Dataset.
 
 🏗️ Model
